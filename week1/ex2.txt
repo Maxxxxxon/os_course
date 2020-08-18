@@ -1,0 +1,106 @@
+    1  whoami
+    2  man man
+    3  less
+    4  head
+    5  stdin
+    6  ls
+    7  l
+    8  s
+    9  cd
+   10  cd s
+   11  pwd
+   12  mkdir test
+   13  ls
+   14  cd test
+   15  ls
+   16  cd ..
+   17  ls
+   18  cd home
+   19  ls
+   20  cd /
+   21  ls
+   22  mkder ~/week1
+   23  mkdir ~/week1
+   24  cd weed1
+   25  week1
+   26  cd week1
+   27  ls
+   28  cd nome
+   29  cd home
+   30  ls
+   31  cd maxon
+   32  ls
+   33  cd week1
+   34  cd ../test
+   35  gedit testfile.txt
+   36  touch
+   37  touch testfile.txt
+   38  ls
+   39  testfile.txt
+   40  open
+   41  gopen
+   42  wopen
+   43  pen
+   44  echo testfile2.txt
+   45  ls
+   46  cd ..
+   47  ;s
+   48  ls
+   49  cd ..
+   50  ls
+   51  cd ..
+   52  ls
+   53  cd usr/bin
+   54  ls
+   55  cd ~
+   56  cd /usr/bin ls
+   57  cd ~
+   58  ls
+   59  cd test
+   60  touch &
+   61  touch & testfile2.exe
+   62  touch & testfile3.txt
+   63  ls
+   64  cd /usr/bin
+   65  ls
+   66  ls > /home/maxon/test/testfile.txt
+   67  ls
+   68  cd
+   69  ls
+   70  directory
+   71  cd /
+   72  ls
+   73  cd home/maxon/
+   74  ls
+   75  cd test1
+   76  cd test
+   77  ls
+   78  testfile.txt
+   79  run testfile.txt
+   80  vi testfile.txt
+   81  install gcc
+   82  sudo install gcc
+   83  sudo apt -y install gcc
+   84  cd /user/bin
+   85  cd /
+   86  ls
+   87  cd bin/
+   88  ls
+   89  cd gcc
+   90  ls | sort -r > /home/maxon/week1/ex1.txt
+   91  cd /home/maxon/week1/
+   92  ls
+   93  head < ex1.txt
+   94  ls | grep gcc | sort -r > /home/maxon/week1/ex1.txt
+   95  cd /home/maxon/week1/
+   96  ls
+   97  head < ex1.txt
+   98  ls
+   99  head < ex1.txt
+  100  cd bin/
+  101  cd /bin/
+  102  ls
+  103  ls | grep gcc | sort -r > /home/maxon/week1/ex1.txt
+  104  cd /home/maxon/week1/
+  105  head < ex1.txt
+  106  history > ex2.txt
