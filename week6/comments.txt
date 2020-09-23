@@ -1,0 +1,5 @@
+On average, SJF algorith significantly outperforms FCFS algorithm both in terms of
+average turn around time and average waiting time (actually, these metrics are 
+dependent and highly correlated). Futhermore, FCFS algorith significantly outperforms
+Round Robin algorithm. again both in terms of average turn around time and average
+waiting time. The completion time is always the same for all the three methods.
