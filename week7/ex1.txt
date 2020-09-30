@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   4093	    632	      8	   4733	   127d	ex3.out
