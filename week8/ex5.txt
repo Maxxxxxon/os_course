@@ -1,0 +1,4 @@
+The virtual adress is an adress in the virtual memory, and the physical adress is an adress in the physical memory. 
+The difference between virtual and physical memory is that the physical memory is a real memory, while virtual
+memory is an abstraction for the program which allows to perform like the program has big memory space (may be 
+bigger than the real one), and no other apps use that memory.
