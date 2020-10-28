@@ -1,0 +1,4 @@
+In the first program the buffer is copied with the fork() method. After it,
+we have two buffers filled with the word "Hello", so they are printed to times
+
+In the second program "Hello" printed once and the buffer is flushed before fork()
