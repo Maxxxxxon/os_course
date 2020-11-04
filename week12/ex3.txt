@@ -1,0 +1,14 @@
+Results:
+
+First, if we increase size of the file, the time increases (obviously)
+
+Second, if we increase the buffer size, the speed usually increases (whenever O_SYNC included or not)
+
+Third, with O_SYNC the speed of copying in less than without O_SYNC in terms of real spent time,
+and they are approximately equal in terms of system spent time. O_SYNC turn off parallelism so the real 
+time for O_SYNC is greater, but the amount of work done by processor(s) does not change if we do not 
+include O_SYNC, so the system time does not really change.
+
+Fourth, the speed increases linearly as we increase buffer size with O_SYNC ON, and it increases 
+logarithmically (approx.) as we increase buffer size with O_SYNC OFF. For quite a big buffer sizes
+(for example, equals to the length of file) including O_SYNC does not affect the speed.
