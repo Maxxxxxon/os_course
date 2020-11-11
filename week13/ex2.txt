@@ -1,0 +1,12 @@
+Recovery:
+- It is not always possible to reroll to some checkpoint or to preemt the resource, for some reasons it may be 
+bad to kill the process, so dealing with the deadlocks through recovery may have negative consequences
++ Should be used only when the actual problem appears -> much less times, then other methods
+
+Prevention:
+- Introduces additional restrictions (sometimes quite strong) for the processes
++ Works and prevents all deadlocks
+
+Avoidance:
+- Requires additional data about the process, which is not always provided (so, actually may be not applicable)
++ Works and prevents deadlocks
